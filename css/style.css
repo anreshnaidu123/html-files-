@@ -1,0 +1,40 @@
+body
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(198, 156, 237);
+}
+header img{
+    width: 130px;
+    height: 130px;
+    border-radius: 20%;
+    margin-bottom: 30px;
+}
+section{
+    margin: 20px;
+}
+.project{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    display: inline-block;
+    border: solid red;
+}
+h1,h2{
+    color: cadetblue;
+
+}
+#bio ,#work{
+    background-color:azure;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(109, 230, 137);
+    text-align: center;
+    padding: 10px;
+}

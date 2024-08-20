@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    
+</head>
+
+<style>
+
+    .section-1 {
+        font-family: Arial, sans-serif;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:110vh;
+        background-color: #f4f4f4;
+        border: 20px solid white;
+    }
+    .naidu{text-align: center;background-color: white;width: 40%;height: 10%;  display: block;
+        margin-left: auto;
+        margin-right: auto;}
+        nav {
+            background-color: black;
+            border-radius: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        nav ul {
+            list-style-type: none;
+            font-size: 2rem;
+            text-align: center;
+            padding-inline-start: 0rem;
+        }
+        li{color: white;}
+        nav ul li {
+            display: inline-block;
+            margin:10px;
+            white-space: 1px;}
+
+            .card-container {
+                display: flex;
+                gap: 10px;
+            }
+            .card {
+                background-color: rgb(230, 213, 196);
+                border-radius: 2px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                width: 300px;
+                overflow: hidden;
+                text-align: center;
+            }
+            .card img {
+                width: 100%;
+                height: 40%;
+                border-radius: 1rem;
+            }
+            .card-content {
+                padding: 20px;
+            }
+            .card-title {
+                font-size: 1.2em;
+                margin-bottom: 20px;
+            }
+            .card-text {
+                font-size: 1em;
+                color: #666;
+                margin-bottom: 20px;
+            }
+            .card-button {
+                color: rgb(84, 13, 238);
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+            .raja{
+                background-color: beige;
+                text-align: justify;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtqK73bK9_0ZHyYtBnFXtKbYeGhdunckK9gA3mKCJaK80sqMcL);
+                color: white;
+                width: 1000px;
+               height: 100px;
+            }
+            .footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+                font-family: Arial, sans-serif;
+            }
+            .footer span {
+                color: #000;
+                white-space:nowrap;
+            }
+            .footer.line-and-text{
+                display: flex;
+                align-items: center;
+                flex-grow:1;
+                margin-left:2px;
+
+            }
+            .note{color: white;}
+
+</style>
+<img class="naidu" src="D:\html&css files\images\lemon.jpg" alt="lemon">
+    <body>
+        <nav >
+            <ul>
+                <li><a href="http://www.digibrainsacademy.com/"><span class="note">Home </span></a></li>
+                <li>Menu</li>
+                <li>Book</li>
+                <li><a href="http://www.digibrainsacademy.com/"><span class="note">About</span></a></li>
+            </ul>
+        </nav>
+<section class="raja">
+    <h2 >30% off this weekend</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis architecto quam ratione ipsum ipsa consectetur quia. Velit pariatur possimus doloribus dolorum nobis! Blanditiis est id sed, voluptatibus aperiam animi
+    Lorem ipsum dolor sit amet  id magnam! Reiciendis eius magnam aliquam!</p>
+</section>
+
+
+
+
+<section class="section-1">
+    <div class="card-container">
+        <div class="card">
+            <h3 class="card-title">Our New Menu</h3>
+            <img src="D:\html&css files\images\image1.jpg" alt="Image 1">
+            <div class="card-content">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-button">See our new menu</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3 class="card-title">Book a table</h3>
+            <img src="D:\html&css files\images\image2.jpg" alt="Image 2">
+            <div class="card-content">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://youtu.be/garwAl_JGss?si=1OpmIPidAsc6E_7U" class="card-button">Book your table now</a>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Opening Hours</h3>
+            <img src="D:\html&css files\images\image3.jpg" alt="Image 3">
+            <div class="card-content">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <pre>Mon-Fri:2pm-10pm
+Sat: 2pm - 11pm
+Sun:2pm - 9pm</pre>
+               
+            </div>
+        </div>
+    </div>
+
+</section>
+<div class="footer">
+    <img src="D:\html&css files\images\footer image.jpg"  width="50"height='40'>
+    <div class="line-and-text">
+      <hr ins="">
+        <span>Copyright Little Lemon</span>
+
+    </div>
+</div>
+
+</body>
+</html>
